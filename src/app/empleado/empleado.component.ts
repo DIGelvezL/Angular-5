@@ -5,7 +5,6 @@ import { EmpleadoEntity } from './empleadoEntity';
 	selector: 'empleado-tag',
 	templateUrl: './empleado.component.html'
 })
-
 export class EmpleadoComponent{
 	public titulo = 'Componente Empleados:';
 	public empleado:EmpleadoEntity;
