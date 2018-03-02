@@ -12,6 +12,9 @@ import { CochesComponent } from './coches/coches.component';
 
 import { ConversorPipe } from './pipes/conversor.pipe';
 
+// Importar HttpClientModule
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +28,8 @@ import { ConversorPipe } from './pipes/conversor.pipe';
   imports: [
     BrowserModule,
     FormsModule,
-    routing
+    routing,
+    HttpClientModule
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]
